@@ -43,7 +43,7 @@ def main() -> int:
 
     print(bold("\n[ARM A] bare agent -- self-report, self-certify (the default)\n"))
     scenario.run_bare(lambda s: print("  " + s))
-    print(red("\n  -> 1 wrong conclusion shipped. Every number in it is inflated."))
+    print(red("\n  -> 1 wrong conclusion shipped. The key numbers in it are inflated."))
     print(red("      Nobody caught it: the agent certified itself."))
 
     print(bold("\n[ARM B] same run + RDL discipline layer\n"))

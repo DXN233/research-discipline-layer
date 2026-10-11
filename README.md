@@ -101,5 +101,6 @@ flags — as a GitHub issue labeled `break-report`. One-line catch-rate reports
 ```
 rdl/            the layer (ledger, prereg, health, sentinel, audit)
 demo/           adversarial replay: bare arm vs RDL arm, catch table
-cases/          case library: every rule's origin battle
+cases/          case library: 15 cases, every rule's real incident origin
+docs/           protocol document (研究判例法 v0.2, the two-layer method)
 ```
